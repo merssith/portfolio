@@ -29,12 +29,8 @@ const About = () => {
             </article>
           </div>
           <p>
-            Actualmente, me encuentro desarrollando proyectos de manera
-            personal, sin embargo quiero aplicar todos mis conocimientos y
-            retomar mis orígenes laborales para ejercer nuevamente en el área de
-            desarrollo de software. Para mantenerme actualizada en las ultimas
-            tecnologías, finalice una capacitación intensivo de Full Stack
-            Developer orientado a Javascript y PERN Stack.
+          Cuento con mas de 6 años de experiencia en el rubro IT. Actualmente me encuentro trabajando como Back End Developer y cuento con experiencia en otras áreas como gestión de proyectos, delivery manager y arquitectura de soluciones.
+          Me gusta trabajar en ámbitos donde pueda aplicar todos mis conocimientos en la construcción de productos digitales innovadores y que me permitan seguir creciendo como profesional.
           </p>
           <a href="#contact" className="btn btn-primary">
             Hablemos!
