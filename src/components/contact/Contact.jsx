@@ -22,13 +22,13 @@ const Contact = () => {
         (result) => {
           notification.innerHTML +=
             "Gracias por tu mensaje. Te responderé a la brevedad!";
+            e.target.reset();
         },
         (error) => {
           notification.innerHTML +=
             "Existe algun problema con este formulario. Puedes contactarme por email o por whatsApp. Lamento las molestias :)";
         }
       );
-    e.target.reset();
   };
 
   return (
