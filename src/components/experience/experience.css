@@ -1,0 +1,98 @@
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.experience__container > div {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.experience__container > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.experience__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+  font-size: 1.3rem;
+}
+
+.experience__container > div h4 {
+  font-size: 1.3rem;
+}
+
+.experience__content {
+  margin: 0.5rem 1rem;
+}
+
+.experience__details {
+  margin: 0.5rem;
+}
+
+.experience__details-icon {
+  font-size: 1.4rem;
+  margin-bottom: -0.3rem;
+  color: var(--color-primary);
+}
+
+.experience__details > .text-light,
+p {
+  padding-left: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+
+  .experience__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .experience__content {
+    padding: 2rem;
+  }
+}
+
+/* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
+
+@media screen and (max-width: 600px) {
+  .experience__container {
+    gap: 1rem;
+  }
+
+  .experience__container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .experience__content {
+    padding: 0;
+  }
+
+  .experience__container > div h4 {
+    font-size: 1rem;
+  }
+
+  .experience__details > .text-light,
+  p {
+    font-size: 0.9rem;
+  }
+
+  .experience__container > div h3 {
+    margin-bottom: 1.2rem;
+  }
+}
