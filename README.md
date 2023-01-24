@@ -13,6 +13,8 @@
 
   <p align="center">
     <br />
+    <a href="https://www.mechisalcedo.com"><strong>Browse the site »</strong></a>
+    <br />
     <a href="https://github.com/Merssith/portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://github.com/Merssith/portfolio/issues">Report bug</a>
@@ -97,6 +99,7 @@ This is my personal portfolio. I hope you like it :)
   - [x] Contact
 - [ ] V.1 (Comming Soon)
   - [ ] LinkedIn Integration for testimonials
+  - [ ] English version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
